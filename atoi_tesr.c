@@ -1,5 +1,7 @@
 int main(void)
 {
+        printf ("\n our atoi : %d  ", ft_atoi("-92233720368547758010"));
+	printf("\n original atoi : %d ", atoi("-92233720368547758010"));
 	printf ("\n our atoi : %d  ", ft_atoi("9223372036854775808"));
 	printf("\n original atoi : %d ", atoi("9223372036854775808"));
 	printf ("\n our atoi : %d  ", ft_atoi("9223372036854775800"));
